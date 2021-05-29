@@ -9,7 +9,7 @@
 
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtsuhuinfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/open_sans_bold"
@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.43" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txtkelembapanudarainfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/open_sans_bold"
@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.553" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txtkelembapantanahinfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/open_sans_bold"
@@ -48,7 +48,7 @@
         app:layout_constraintVertical_bias="0.669" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/txtcahayainfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/open_sans_bold"
@@ -61,7 +61,7 @@
         app:layout_constraintVertical_bias="0.786" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/txthujaninfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/open_sans_bold"
@@ -74,7 +74,7 @@
         app:layout_constraintVertical_bias="0.901" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/txtnode1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/open_sans_bold"
@@ -89,7 +89,7 @@
         app:layout_constraintVertical_bias="0.293" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/txtnode2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/open_sans_bold"
