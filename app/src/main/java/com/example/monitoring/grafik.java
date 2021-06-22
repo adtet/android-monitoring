@@ -93,7 +93,7 @@ public class grafik extends AppCompatActivity {
                         for(get_data_for_chart get_data_for_chart1:get_data_for_chart){
                             data_plot.add(new BarEntry(toMins(get_data_for_chart1.getTime()),Float.parseFloat(get_data_for_chart1.getData())));
                         }
-                        BarDataSet barDataSet = new BarDataSet(data_plot,"Ganggu");
+                        BarDataSet barDataSet = new BarDataSet(data_plot,"Suhu (Celsius)");
                         barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
                         barDataSet.setValueTextColor(Color.BLACK);
                         barDataSet.setValueTextSize(16f);
@@ -102,7 +102,7 @@ public class grafik extends AppCompatActivity {
 
                         barChart.setFitBars(true);
                         barChart.setData(barData);
-                        barChart.getDescription().setText("Ganggu example");
+                        barChart.getDescription().setText("Node 1");
                         barChart.animateY(2000);
                     }
                 }
@@ -131,7 +131,7 @@ public class grafik extends AppCompatActivity {
                         for(get_data_for_chart get_data_for_chart1:get_data_for_chart){
                             data_plot.add(new BarEntry(toMins(get_data_for_chart1.getTime()),Float.parseFloat(get_data_for_chart1.getData())));
                         }
-                        BarDataSet barDataSet = new BarDataSet(data_plot,"Ganggu");
+                        BarDataSet barDataSet = new BarDataSet(data_plot,"Kelembaban Udara (%)");
                         barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
                         barDataSet.setValueTextColor(Color.BLACK);
                         barDataSet.setValueTextSize(16f);
@@ -140,7 +140,7 @@ public class grafik extends AppCompatActivity {
 
                         barChart.setFitBars(true);
                         barChart.setData(barData);
-                        barChart.getDescription().setText("Ganggu example");
+                        barChart.getDescription().setText("Node 1");
                         barChart.animateY(2000);
                     }
                 }
@@ -170,7 +170,7 @@ public class grafik extends AppCompatActivity {
                         for(get_data_for_chart get_data_for_chart1:get_data_for_chart){
                             data_plot.add(new BarEntry(toMins(get_data_for_chart1.getTime()),Float.parseFloat(get_data_for_chart1.getData())));
                         }
-                        BarDataSet barDataSet = new BarDataSet(data_plot,"Ganggu");
+                        BarDataSet barDataSet = new BarDataSet(data_plot,"Kelembaban Tanah(%)");
                         barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
                         barDataSet.setValueTextColor(Color.BLACK);
                         barDataSet.setValueTextSize(16f);
@@ -179,7 +179,7 @@ public class grafik extends AppCompatActivity {
 
                         barChart.setFitBars(true);
                         barChart.setData(barData);
-                        barChart.getDescription().setText("Ganggu example");
+                        barChart.getDescription().setText("Node 1");
                         barChart.animateY(2000);
                     }
                 }
@@ -208,7 +208,7 @@ public class grafik extends AppCompatActivity {
                         for(get_data_for_chart get_data_for_chart1:get_data_for_chart){
                             data_plot.add(new BarEntry(toMins(get_data_for_chart1.getTime()),Float.parseFloat(get_data_for_chart1.getData())));
                         }
-                        BarDataSet barDataSet = new BarDataSet(data_plot,"Ganggu");
+                        BarDataSet barDataSet = new BarDataSet(data_plot,"Intensitas cahaya(LUX)");
                         barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
                         barDataSet.setValueTextColor(Color.BLACK);
                         barDataSet.setValueTextSize(16f);
@@ -217,7 +217,7 @@ public class grafik extends AppCompatActivity {
 
                         barChart.setFitBars(true);
                         barChart.setData(barData);
-                        barChart.getDescription().setText("Ganggu example");
+                        barChart.getDescription().setText("Node 1");
                         barChart.animateY(2000);
                     }
                 }
@@ -246,7 +246,7 @@ public class grafik extends AppCompatActivity {
                         for(get_data_for_chart get_data_for_chart1:get_data_for_chart){
                             data_plot.add(new BarEntry(toMins(get_data_for_chart1.getTime()),Float.parseFloat(get_data_for_chart1.getData())));
                         }
-                        BarDataSet barDataSet = new BarDataSet(data_plot,"Ganggu");
+                        BarDataSet barDataSet = new BarDataSet(data_plot,"Curah Hujan > 500 (tidak Hujan),Curah Hujan<500(hujan)");
                         barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
                         barDataSet.setValueTextColor(Color.BLACK);
                         barDataSet.setValueTextSize(16f);
@@ -255,7 +255,7 @@ public class grafik extends AppCompatActivity {
 
                         barChart.setFitBars(true);
                         barChart.setData(barData);
-                        barChart.getDescription().setText("Ganggu example");
+                        barChart.getDescription().setText("Node 1");
                         barChart.animateY(2000);
                     }
 
@@ -285,7 +285,7 @@ public class grafik extends AppCompatActivity {
                         for(get_data_for_chart get_data_for_chart1:get_data_for_chart){
                             data_plot.add(new BarEntry(toMins(get_data_for_chart1.getTime()),Float.parseFloat(get_data_for_chart1.getData())));
                         }
-                        BarDataSet barDataSet = new BarDataSet(data_plot,"Ganggu");
+                        BarDataSet barDataSet = new BarDataSet(data_plot,"Suhu (Celsius)");
                         barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
                         barDataSet.setValueTextColor(Color.BLACK);
                         barDataSet.setValueTextSize(16f);
@@ -294,7 +294,7 @@ public class grafik extends AppCompatActivity {
 
                         barChart.setFitBars(true);
                         barChart.setData(barData);
-                        barChart.getDescription().setText("Ganggu example");
+                        barChart.getDescription().setText("Node 2");
                         barChart.animateY(2000);
                     }
 
@@ -324,7 +324,7 @@ public class grafik extends AppCompatActivity {
                         for(get_data_for_chart get_data_for_chart1:get_data_for_chart){
                             data_plot.add(new BarEntry(toMins(get_data_for_chart1.getTime()),Float.parseFloat(get_data_for_chart1.getData())));
                         }
-                        BarDataSet barDataSet = new BarDataSet(data_plot,"Ganggu");
+                        BarDataSet barDataSet = new BarDataSet(data_plot,"Kelembaban Udara (%)");
                         barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
                         barDataSet.setValueTextColor(Color.BLACK);
                         barDataSet.setValueTextSize(16f);
@@ -333,7 +333,7 @@ public class grafik extends AppCompatActivity {
 
                         barChart.setFitBars(true);
                         barChart.setData(barData);
-                        barChart.getDescription().setText("Ganggu example");
+                        barChart.getDescription().setText("Node 2");
                         barChart.animateY(2000);
                     }
 
@@ -363,7 +363,7 @@ public class grafik extends AppCompatActivity {
                         for(get_data_for_chart get_data_for_chart1:get_data_for_chart){
                             data_plot.add(new BarEntry(toMins(get_data_for_chart1.getTime()),Float.parseFloat(get_data_for_chart1.getData())));
                         }
-                        BarDataSet barDataSet = new BarDataSet(data_plot,"Ganggu");
+                        BarDataSet barDataSet = new BarDataSet(data_plot,"Kelambaban Tanah(%)");
                         barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
                         barDataSet.setValueTextColor(Color.BLACK);
                         barDataSet.setValueTextSize(16f);
@@ -372,7 +372,7 @@ public class grafik extends AppCompatActivity {
 
                         barChart.setFitBars(true);
                         barChart.setData(barData);
-                        barChart.getDescription().setText("Ganggu example");
+                        barChart.getDescription().setText("Node 2");
                         barChart.animateY(2000);
                     }
                 }
@@ -401,7 +401,7 @@ public class grafik extends AppCompatActivity {
                         for(get_data_for_chart get_data_for_chart1:get_data_for_chart){
                             data_plot.add(new BarEntry(toMins(get_data_for_chart1.getTime()),Float.parseFloat(get_data_for_chart1.getData())));
                         }
-                        BarDataSet barDataSet = new BarDataSet(data_plot,"Ganggu");
+                        BarDataSet barDataSet = new BarDataSet(data_plot,"Intensitas Cahaya(LUX)");
                         barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
                         barDataSet.setValueTextColor(Color.BLACK);
                         barDataSet.setValueTextSize(16f);
@@ -410,7 +410,7 @@ public class grafik extends AppCompatActivity {
 
                         barChart.setFitBars(true);
                         barChart.setData(barData);
-                        barChart.getDescription().setText("Ganggu example");
+                        barChart.getDescription().setText("Node 2");
                         barChart.animateY(2000);
                     }
                 }
@@ -441,7 +441,7 @@ public class grafik extends AppCompatActivity {
                         for(get_data_for_chart get_data_for_chart1:get_data_for_chart){
                             data_plot.add(new BarEntry(toMins(get_data_for_chart1.getTime()),Float.parseFloat(get_data_for_chart1.getData())));
                         }
-                        BarDataSet barDataSet = new BarDataSet(data_plot,"Ganggu");
+                        BarDataSet barDataSet = new BarDataSet(data_plot,"Curah Hujan > 500 (tidak Hujan),Curah Hujan<500(hujan)");
                         barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
                         barDataSet.setValueTextColor(Color.BLACK);
                         barDataSet.setValueTextSize(16f);
@@ -450,7 +450,7 @@ public class grafik extends AppCompatActivity {
 
                         barChart.setFitBars(true);
                         barChart.setData(barData);
-                        barChart.getDescription().setText("Ganggu example");
+                        barChart.getDescription().setText("Node 2");
                         barChart.animateY(2000);
                     }
                 }
